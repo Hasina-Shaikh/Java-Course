@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.org.cornerstone.dto;
+
+import org.springframework.stereotype.Component;
+
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+@Component
+@AllArgsConstructor
+@Getter
+@Setter
+@EqualsAndHashCode
+public class EmployeeResponeDto {
+	
+	private int empid;
+	private String empname;
+	private String emailid;
+	private boolean empstatus;
+	private String mobileno;
+	private int salary;
+	private String address;
+	
+	
+	
+}

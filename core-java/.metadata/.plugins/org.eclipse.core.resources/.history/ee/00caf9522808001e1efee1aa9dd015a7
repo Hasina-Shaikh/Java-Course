@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.org.cornerstone1.controllers.copy;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+public class IndexController {
+	
+	@PostMapping("/")
+	public String data()
+	{
+		int a=10,b=20;
+		int c = a+b;
+		return "Addition of a and b "+ c;
+	}
+}

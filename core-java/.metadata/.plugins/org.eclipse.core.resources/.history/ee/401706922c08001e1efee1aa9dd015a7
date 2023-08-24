@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.org.cornerstone1.dto.copy;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+public class Add1 {
+
+	private String a;
+	private String b;
+	private String c;
+}

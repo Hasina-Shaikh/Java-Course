@@ -1,4 +1,4 @@
-package com.org.cornerstone;
+/*package com.org.cornerstone;*/
 
 import java.util.Scanner;
 

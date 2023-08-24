@@ -1,0 +1,17 @@
+package com.org.cornerstone;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LombackDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LombackDemoApplication.class, args);
+		
+		public void main() {
+		return "This is my first Lomback";
+	}
+
+	}
+}

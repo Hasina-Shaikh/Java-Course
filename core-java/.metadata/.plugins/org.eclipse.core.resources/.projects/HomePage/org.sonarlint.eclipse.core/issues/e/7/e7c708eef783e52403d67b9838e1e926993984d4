@@ -1,0 +1,22 @@
+
+h
+java:S1128"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›8‰ÓÚËŠ1H«RMINORZ
+CODE_SMELL
+n
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8‰ÓÚËŠ1H­RMINORZ
+CODE_SMELL
+ˆ
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿ8ÛöïËŠ1H¯RMINORZ
+CODE_SMELL
+]
+java:S1128"*Remove this unused import 'lombok.Setter'.(ó¸çµ8‰ÓÚËŠ1H±RMINORZ
+CODE_SMELL
+}
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8‰ÓÚËŠ1H³RMINORZ
+CODE_SMELL
+`
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8‰ÓÚËŠ1HµRMINORZ
+CODE_SMELL
+]
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8‰ÓÚËŠ1H·RMINORZ
+CODE_SMELL

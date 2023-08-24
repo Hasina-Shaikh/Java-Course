@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package com.org.cornerstone1.controllers.copy;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.org.cornerstone1.dto.copy.Add1;
+import com.org.cornerstone1.dto.copy.Add;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+
+@RestController
+public class IndexController {
+	
+	@PostMapping("/")
+	public Add1 printData(@RequestBody Add add) {
+		
+		Add1 add1 = new Add1();
+		add1.setA(add.getA());
+		add1.setB(add.getB());
+		add1.setC(add.getC());
+		
+		return add1;
+		
+		
+		
+	}
+} 
+
+

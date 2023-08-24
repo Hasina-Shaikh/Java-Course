@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.org.cornerstone.dto;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+@Component
+public class EmployeeRequestDto {
+
+	private int empid;
+	private String empname;
+	private String emailid;
+	private boolean empstatus;
+	private String mobileno;
+	
+
+	
+}

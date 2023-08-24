@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package com.org.cornerstone1.controllers.copy;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import lombok.Data;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+
+public class IndexController {
+	
+	public String Add() {
+	
+		Add add = new Add();
+		add.setData(a,b);
+		return add;
+}
+
+

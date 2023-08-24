@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package com.org.cornerstone1.controllers.copy;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+@Component
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+
+public class IndexController {
+		return c;
+}
+
+

@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package com.org.cornerstone.controllers;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.org.cornerstone.dto.EmployeeRequestDto;
+import com.org.cornerstone.dto.EmployeeResponeDto;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+@RestController
+public class IndexController {
+
+	@GetMapping("/")
+	public String home() {
+		return "Hello This is my first Lombok project";
+		
+	}
+	
+	@PostMapping("/savedata")
+	public EmployeeResponeDto printData(@RequestBody EmployeeRequestDto employeeRequestDto )
+	{
+		EmployeeResponeDto employeeResponeDto = new EmployeeResponeDto();
+		employeeResponeDto.setEmpid(employeeRequestDto.getEmpid());
+		employeeResponeDto.setEmailid(employeeRequestDto.getEmailid());
+		employeeResponeDto.setEmpname(employeeRequestDto.getEmpname());
+		employeeResponeDto.setEmpstatus(employeeRequestDto.isEmpstatus());
+		employeeResponeDto.setMobileno(employeeRequestDto.getMobileno());
+		employeeResponeDto.setAddress("Kondhwa");
+		employeeResponeDto.setSalary(50000);
+		return employeeResponeDto;
+	}
+}
+
+
+

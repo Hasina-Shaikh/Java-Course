@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.org.cornerstone1.dto;
+
+import lombok.Data;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+@Data
+public class Add {
+	
+	int a = 10 , b=20;
+	int c= a+b;
+
+}

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.org.cornerstone1.controllers.copy;
+
+/**
+ * @author muskanshaikh
+ *
+ */
+public class IndexController {
+	
+	int a=10,b=20;
+	public void data(a,b)
+	{
+		
+		int c = a+b;
+		return c;
+	}
+	
+
+}
