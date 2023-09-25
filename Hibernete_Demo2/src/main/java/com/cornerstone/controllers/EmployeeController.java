@@ -46,13 +46,12 @@ public class EmployeeController {
 	public Optional<EmployeeEntity> getempselected(@RequestHeader String id)
 	{
 		return employeeReposiory.findById((long) Integer.parseInt(id));
-		
 	}
 
 	@PostMapping("/deleteempselected")
 	public void  deleteempselected(@RequestHeader long id)
 	{
-		employeeReposiory.deleteById(id) ;
+		employeeReposiory.deleteById(id);
 		
 	}
 	

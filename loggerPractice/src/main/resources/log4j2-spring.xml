@@ -7,14 +7,14 @@
 		</Console>
 
 		<RollingFile name="RollingFile"
-			fileName="./logs/LoggerDemo/Testing.log"
+			fileName="./logs/loggerPractice/Testing.log"
 			filePattern="./logs/LoggerDemo/$${date:yyyy-MM}/Testing-%d{-dd-MMMM-yyyy}-%i.log.gz">
 			<PatternLayout>
 				<pattern>%d %p %C{1.} [%t] %m%n</pattern>
 			</PatternLayout>
 			<Policies>
 				<OnStartupTriggeringPolicy />
-				<SizeBasedTriggeringPolicy size="1 MB" />
+				<SizeBasedTriggeringPolicy size="10 MB" />
 				<TimeBasedTriggeringPolicy />
 			</Policies>
 		</RollingFile>

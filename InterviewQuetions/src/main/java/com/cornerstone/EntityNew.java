@@ -13,7 +13,6 @@ import lombok.Data;
  */
 
 @Data
-
 public class EntityNew {
 
 	private String name;
